@@ -7,7 +7,7 @@
 }
 .todo-header{
   padding: 0.5em;
-  border:1px solid #2c3035;
+  border-bottom:2px solid #2c3035;
   text-align: center;
 }
 .todo-header h1{
@@ -17,7 +17,7 @@
 .form-todo{
   padding: 1em;
   margin: 0 2em;
-  border-bottom: 1px solid  #2c3035;
+  border-bottom: 2px solid  #2c3035;
 
 }
 
@@ -36,7 +36,7 @@
 
 .form-control label{
   font-weight:bold ;
-  font-size: .7em;
+  font-size: .9em;
   margin-bottom: .4em;
 }
 
@@ -84,18 +84,18 @@ input[type="submit"]{
 
 .todo-done{
   text-decoration: line-through;
-  color: rgb(240, 98, 146);
+  color: rgb(135 61 58);
 }
 
 .todo p{
-  text-align: left;
+  text-align: center;
   font-style: italic;
-  font-size: .7em;
+  font-size: 1em;
   margin-bottom: 1.5em ;
 }
 
 .todo svg {
-  font-size: 1.2em;
+  font-size: 1.3em;
   cursor:pointer;
   margin-right: 1em;
   transition: .5s;
